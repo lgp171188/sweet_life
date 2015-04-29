@@ -1,0 +1,10 @@
+{
+  "name": "SweetLife",
+  "description": "A logging application for diabetics",
+  "author": "L. Guruprasad",
+  "license": "AGPLv3",
+  "dependencies": {
+    "bower": "~1.4.1",
+    "uglify-js": "*"
+  }
+}
