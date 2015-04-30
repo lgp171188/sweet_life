@@ -12,14 +12,7 @@ locale-gen en_US.UTF-8
 
 apt-get upgrade -y -q
 
-apt-get install -y -q npm
-
-ln -sf /usr/bin/nodejs /usr/local/bin/node
-
-npm install
-
-apt-get install -y -q python-virtualenv libpython-dev
-apt-get install -y -q git
+apt-get install -y -q python-virtualenv libpython-dev git
 
 VENV=/home/vagrant/.virtualenvs/sweet_life
 
